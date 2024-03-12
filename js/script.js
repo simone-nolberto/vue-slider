@@ -37,12 +37,12 @@ createApp({
     },
     methods: {
         next() {
-            activeSlide++
+            this.activeSlide++
             console.log(activeSlide);
         },
 
         prev() {
-            activeSlide--
+            this.activeSlide--
             console.log(activeSlide);
         }
 
