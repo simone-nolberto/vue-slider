@@ -38,17 +38,17 @@ createApp({
     methods: {
         prev() {
             this.activeSlide--
-            console.log(this.activeSlide);
+            // console.log(this.activeSlide);
             if (this.activeSlide < 0) {
-                this.activeSlide = this.slides.lenght - 1;
+                this.activeSlide = this.slides.length - 1;
             }
 
 
         },
         next() {
             this.activeSlide++
-            console.log(this.activeSlide);
-            if (this.activeSlide === this.slides.lenght) {
+            // console.log(this.activeSlide);
+            if (this.activeSlide === this.slides.length) {
                 this.activeSlide = 0;
             }
         },

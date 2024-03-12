@@ -44,12 +44,12 @@
                     <div class="thumb">
                         <img src="img/05.webp" alt="Avengers" />
                     </div> -->
-                    <template v-for="(slide, image) in slides">
-                        <div class="thumb">
+                    <template v-for="(slide, index) in slides">
+                        <div class="thumb" @click="activeSlide = index">
                             <img :src="slide.image" alt="">
-                    </div>
+                        </div>
                     </template>
-                    
+
                 </div>
 
             </div>
