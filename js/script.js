@@ -32,7 +32,7 @@ createApp({
                 }
             ],
             activeSlide: 0,
-            console: console.log(this),
+            // console: console.log(this),
         }
     },
 
